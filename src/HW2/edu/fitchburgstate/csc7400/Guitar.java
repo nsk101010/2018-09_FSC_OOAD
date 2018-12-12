@@ -1,7 +1,7 @@
 /* Class		 : Object-Oriented Design and Analysis
 * Professor  : Orlando Montalvo
 * Assignment : HW2
-* Students	 : @saran 
+* Students	 : saran,vamsi 
 * Date		: 2018-09-03
 */
 package HW2.edu.fitchburgstate.csc7400;

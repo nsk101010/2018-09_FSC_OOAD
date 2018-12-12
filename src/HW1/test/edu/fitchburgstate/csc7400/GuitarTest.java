@@ -1,7 +1,7 @@
 /* Class		 : Object-Oriented Design and Analysis
 * Professor  : Orlando Montalvo
-* Assignment : HW 1
-* Students	 : @saran 
+* Assignment : HW1
+* Students	 : saran,vamsi 
 * Date		: 2018-09-03
 */
 

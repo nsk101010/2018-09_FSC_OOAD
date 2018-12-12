@@ -1,49 +1,25 @@
-package HW1.test.edu.fitchburgstate.csc7400;
 
-/**
- * JUnit Test cases for WoodType class  
- * @author saran
- * @version 1.0
- */
+public enum Woodtype 
+{
 
-
-public enum WoodType {
+		  INDIAN_ROSEWOOD, BRAZILIAN_ROSEWOOD, MAHOGANY, MAPLE, COCOBOLO,
+		  CEDAR, ADIRONDACK, ALDER, SITKA;
 	
-	Indian Rosewood,
-	Brazilian Rosewood,
-	Mahogany,
-	Maple,
-	Cocobolo,
-	Cedar,
-	Adirondack,
-	Alder,
-	Sitka;
-	public String toString()
+	public String toString() 
 	{
-		switch(this)
-		{
-		case Indian Rosewood:
-			return "Indian Rosewood";
-		case Brazilian Rosewood:
-			return "Brazilian Rosewood";
-		case Mahogany:
-			return "Mahogany";
-		case Maple:
-			return "Maple";
-		case Cocobolo:
-			return "Cocobolo";
-		case Cedar:
-			return "Cedar";
-		case Adirondack:
-			return "Adirondack";
-		case Alder:
-			return "Alder";
-		case Sitka:
-			return "Sitka";
-		default:throw new IllegalArgumentException();
-			
-		}
-		
-	}
-	
+			  switch(this)
+			  {
+			  case INDIAN_ROSEWOOD: return "Indian Rosewood";
+			  case BRAZILIAN_ROSEWOOD: return "Brazilian Rosewood";
+			  case MAHOGANY: return "Mahogany";
+			  case MAPLE: return "maple";
+			  case COCOBOLO: return "cocobolo";
+			  case CEDAR: return "cedar";
+			  case ADIRONDACK: return "Adirondack";
+			  case ALDER: return "Alder";
+			  case SITKA: return "Sitka";
+			  default: throw new IllegalArgumentException();
+			  }			  
+		  }
 }
+

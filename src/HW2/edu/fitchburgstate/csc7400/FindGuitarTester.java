@@ -1,23 +1,16 @@
-package HW1.edu.fitchburgstate.csc7400;
-
-import java.util.Iterator;
-import java.util.List;
-
-/*
- * Course Name : Object Oriented Design and Analysis
- * Professor Name : Orlando Montalvo
- * Date : 09-18-2018
- * Assignment1
- * Participants : Saran Nemani(01400045) 
- * Version 2.0
- */
-
+/* Class		 : Object-Oriented Design and Analysis
+* Professor  : Orlando Montalvo
+* Assignment : HW2
+* Students	 : @saran 
+* Date		: 2018-09-03
+*/
+package HW2.edu.fitchburgstate.csc7400;
+/*This method take the input from customer based on user input it searches the inventory and get all the matching records and displays to customer */
 public class FindGuitarTester {
-
 /*
- * Program starts here ...
+ * This method displays the result of the searched guitar based on given parameters.
+ * args are not used
  */
-
   public static void main(String[] args) {
     // Set up Rick's guitar inventory
     Inventory inventory = new Inventory();
@@ -25,6 +18,7 @@ public class FindGuitarTester {
 
     Guitar whatErinLikes = new Guitar("", 0, "fender", "Stratocastor", 
                                       "electric", "Alder", "Alder");
+    
     Guitar guitar = inventory.search(whatErinLikes);
     if (guitar != null) {
       System.out.println("Erin, you might like this " +
@@ -37,13 +31,11 @@ public class FindGuitarTester {
       System.out.println("Sorry, Erin, we have nothing for you.");
     }
   }
-
+/*@param inventory object
+ * it intializes all the guitars below.
+ * 
+ * */
   private static void initializeInventory(Inventory inventory) {
-
-
-/*
- * Adding Guitars with properties to initialize Inventory class
- */
     inventory.addGuitar("11277", 3999.95, "Collings", "CJ", "acoustic",
                         "Indian Rosewood", "Sitka");
     inventory.addGuitar("V95693", 1499.95, "Fender", "Stratocastor", "electric",
@@ -68,3 +60,4 @@ public class FindGuitarTester {
                         "electric", "Mahogany", "Maple");
   }
 }
+

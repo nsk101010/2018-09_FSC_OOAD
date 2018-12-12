@@ -1,24 +1,19 @@
-/*
- * Course Name : Object Oriented Design and Analysis
- * Professor Name : Orlando Montalvo
- * Date : 09-18-2018
- * Assignment1
- * Participants : Saran Nemani(01400045)
- * Version 2.0
- */
-package HW1.edu.fitchburgstate.csc7400;
-
+/* Class		 : Object-Oriented Design and Analysis
+* Professor  : Orlando Montalvo
+* Assignment : HW2
+* Students	 : @saran 
+* Date		: 2018-09-03
+*/
+package HW2.edu.fitchburgstate.csc7400;
 /**
- * Guitar contains the information needed to keep track of a type of guitar from
- * Rick's music store
- * 
- * @author HeadFirstOODA
- *
- */
+* Guitar contains the information needed to keep track of a type of guitar from
+* Rick's music store
+
+*/
 public class Guitar {
 
 	/**
-	 * Full constructor
+	 * Full constructor of the guitar when we passed the given value in the guitar constructor we get the guitar object 
 	 * 
 	 * @param serialNumber manufacturer serial number
 	 * @param price store price
@@ -34,7 +29,7 @@ public class Guitar {
 			String topWood) {
 		this.serialNumber = serialNumber;
 		this.price = price;
-		this.manufacturer = manufacturer;
+		this.manufacturer= manufacturer;
 		this.model = model;
 		this.type = type;
 		this.backWood = backWood;
@@ -136,4 +131,7 @@ public class Guitar {
 	 * Rick's price for the guitar
 	 */
 	private double price;
+
+
+	
 }

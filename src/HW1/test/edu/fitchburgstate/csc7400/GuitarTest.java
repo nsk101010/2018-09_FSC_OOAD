@@ -1,9 +1,7 @@
 /* Class		 : Object-Oriented Design and Analysis
 * Professor  : Orlando Montalvo
 * Assignment : HW 1
-* Students	 : Aditya(@01392300)
-* 			   Nikhil(@01392295)
-*			   Raghunandan(@01390645 )
+* Students	 : @saran 
 * Date		: 2018-09-03
 */
 
